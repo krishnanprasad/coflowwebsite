@@ -519,6 +519,24 @@ nav ul a.active::after {
   font-weight: 600;
 }
 
+.contact-persons {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: 0.5rem;
+}
+
+.contact-persons li strong {
+  color: var(--color-primary-dark);
+  display: block;
+}
+
+.contact-persons li span {
+  color: var(--color-muted);
+  font-size: 0.95rem;
+}
+
 .contact-form {
   display: grid;
   gap: 1rem;
@@ -658,30 +676,17 @@ nav ul a.active::after {
   font-weight: 600;
 }
 
-.map-placeholder {
-  background: linear-gradient(140deg, rgba(31, 166, 240, 0.12), rgba(15, 76, 129, 0.18));
+.map-embed {
   border-radius: 24px;
+  overflow: hidden;
   min-height: 260px;
-  position: relative;
-  display: grid;
-  place-items: center;
-  color: var(--color-muted);
-  text-align: center;
-  padding: 1.5rem;
+  box-shadow: var(--shadow-soft);
 }
 
-.map-placeholder::before {
-  content: 'Coimbatore, Tamil Nadu';
-  font-weight: 600;
-  color: var(--color-primary);
-  position: absolute;
-  top: 24px;
-}
-
-.map-placeholder svg {
-  width: 60%;
-  max-width: 360px;
-  opacity: 0.4;
+.map-embed iframe {
+  width: 100%;
+  height: 100%;
+  border: 0;
 }
 
 .accreditation {
