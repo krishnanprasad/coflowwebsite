@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 120">
+  <defs>
+    <linearGradient id="logoGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0f4c81" />
+      <stop offset="100%" stop-color="#1fa6f0" />
+    </linearGradient>
+  </defs>
+  <rect x="0" y="0" width="400" height="120" rx="18" fill="#041e36" />
+  <text x="32" y="78" font-family="'Poppins', 'Segoe UI', sans-serif" font-size="64" font-weight="700" fill="white">COFLOW</text>
+  <text x="34" y="108" font-family="'Poppins', 'Segoe UI', sans-serif" font-size="32" font-weight="500" fill="url(#logoGradient)">VALVES</text>
+  <circle cx="340" cy="60" r="42" fill="none" stroke="url(#logoGradient)" stroke-width="10" />
+  <line x1="340" y1="24" x2="340" y2="96" stroke="#f5b400" stroke-width="10" stroke-linecap="round" />
+  <line x1="298" y1="60" x2="382" y2="60" stroke="#f5b400" stroke-width="10" stroke-linecap="round" />
+</svg>
